@@ -3,5 +3,3 @@ services:
   api:
     build: .
     network_mode: host
-    volumes:
-    - ./nginx-conf.d:/etc/nginx/conf.d
